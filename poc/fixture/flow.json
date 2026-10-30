@@ -1,0 +1,664 @@
+{
+  "pageUrl": "https://example.queue-it.net/softblock/?c=example&e=demo&t=https%3A%2F%2Fshop.example.com",
+  "flowToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiJleGFtcGxlIiwic2l0ZUtleSI6ImRlbW8iLCJjaGFsbGVuZ2VGbG93IjpbeyJ0eXBlIjoiaW52IiwiY29tcGxleGl0eSI6MX0seyJ0eXBlIjoiaWNvbiIsImNvbXBsZXhpdHkiOjEsImFsbG93QXVkaW8iOnRydWV9XSwic2Vzc2lvbklkIjoiZjFlMWY2NjUtZDNiZS00Mzk2LWE2NjktNGU1N2RlMjUwNzhiIiwiaWF0IjoxNzkzMTc2NDk3LCJleHAiOjE3OTMxNzY2MTd9.example-signature",
+  "flowPayload": {
+    "accountId": "example",
+    "siteKey": "demo",
+    "challengeFlow": [
+      {
+        "type": "inv",
+        "complexity": 1
+      },
+      {
+        "type": "icon",
+        "complexity": 1,
+        "allowAudio": true
+      }
+    ],
+    "sessionId": "f1e1f665-d3be-4396-a669-4e57de25078b",
+    "iat": 1793176497,
+    "exp": 1793176617
+  },
+  "fingerprint": "421dffd594fd3062abf1f8852b99448d",
+  "verifyFlow": {
+    "ChallengeFlowResult": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiJleGFtcGxlIiwic2l0ZUtleSI6ImRlbW8iLCJzZXNzaW9uSWQiOiJmMWUxZjY2NS1kM2JlLTQzOTYtYTY2OS00ZTU3ZGUyNTA3OGIiLCJzb2x1dGlvblRpbWUiOjE3OTEzODMzMjkuMDQ4LCJzb2x2ZWRUeXBlcyI6ImludixpY29uIiwiZXhwIjoxNzkzMTc2NTY1fQ.example-signature"
+  },
+  "requests": [
+    {
+      "at": "2026-10-28T08:34:56.814Z",
+      "method": "GET",
+      "url": "https://example.queue-it.net/softblock/?c=example&e=demo&t=https%3A%2F%2Fshop.example.com",
+      "status": 200,
+      "headers": [
+        {
+          "name": "sec-ch-ua",
+          "value": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\""
+        },
+        {
+          "name": "sec-ch-ua-mobile",
+          "value": "?0"
+        },
+        {
+          "name": "sec-ch-ua-platform",
+          "value": "\"macOS\""
+        },
+        {
+          "name": "upgrade-insecure-requests",
+          "value": "1"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+        },
+        {
+          "name": "sec-fetch-site",
+          "value": "none"
+        },
+        {
+          "name": "sec-fetch-mode",
+          "value": "navigate"
+        },
+        {
+          "name": "sec-fetch-user",
+          "value": "?1"
+        },
+        {
+          "name": "sec-fetch-dest",
+          "value": "document"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate, br, zstd"
+        },
+        {
+          "name": "accept-language",
+          "value": "en-US,en;q=0.9"
+        },
+        {
+          "name": "cookie",
+          "value": "<redacted>"
+        },
+        {
+          "name": "priority",
+          "value": "u=0, i"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-28T08:34:59.161Z",
+      "method": "GET",
+      "url": "https://dual.challenge.queue-it.net/pow/get",
+      "status": 200,
+      "headers": [
+        {
+          "name": "sec-ch-ua-platform",
+          "value": "\"macOS\""
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "name": "sec-ch-ua",
+          "value": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\""
+        },
+        {
+          "name": "content-type",
+          "value": "application/json"
+        },
+        {
+          "name": "x-tt-flow-token",
+          "value": "<redacted>"
+        },
+        {
+          "name": "sec-ch-ua-mobile",
+          "value": "?0"
+        },
+        {
+          "name": "accept",
+          "value": "*/*"
+        },
+        {
+          "name": "origin",
+          "value": "https://example.queue-it.net"
+        },
+        {
+          "name": "sec-fetch-site",
+          "value": "same-site"
+        },
+        {
+          "name": "sec-fetch-mode",
+          "value": "cors"
+        },
+        {
+          "name": "sec-fetch-dest",
+          "value": "empty"
+        },
+        {
+          "name": "referer",
+          "value": "https://example.queue-it.net/"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate, br, zstd"
+        },
+        {
+          "name": "accept-language",
+          "value": "en-US,en;q=0.9"
+        },
+        {
+          "name": "priority",
+          "value": "u=1, i"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-28T08:34:59.818Z",
+      "method": "POST",
+      "url": "https://dual.challenge.queue-it.net/pow/verify",
+      "status": 200,
+      "headers": [
+        {
+          "name": "content-length",
+          "value": "1651"
+        },
+        {
+          "name": "sec-ch-ua-platform",
+          "value": "\"macOS\""
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "name": "sec-ch-ua",
+          "value": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\""
+        },
+        {
+          "name": "content-type",
+          "value": "application/json"
+        },
+        {
+          "name": "sec-ch-ua-mobile",
+          "value": "?0"
+        },
+        {
+          "name": "accept",
+          "value": "*/*"
+        },
+        {
+          "name": "origin",
+          "value": "https://example.queue-it.net"
+        },
+        {
+          "name": "sec-fetch-site",
+          "value": "same-site"
+        },
+        {
+          "name": "sec-fetch-mode",
+          "value": "cors"
+        },
+        {
+          "name": "sec-fetch-dest",
+          "value": "empty"
+        },
+        {
+          "name": "referer",
+          "value": "https://example.queue-it.net/"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate, br, zstd"
+        },
+        {
+          "name": "accept-language",
+          "value": "en-US,en;q=0.9"
+        },
+        {
+          "name": "priority",
+          "value": "u=1, i"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-28T08:35:00.328Z",
+      "method": "GET",
+      "url": "https://dual.challenge.queue-it.net/icon/get",
+      "status": 200,
+      "headers": [
+        {
+          "name": "sec-ch-ua-platform",
+          "value": "\"macOS\""
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "name": "sec-ch-ua",
+          "value": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\""
+        },
+        {
+          "name": "content-type",
+          "value": "application/json"
+        },
+        {
+          "name": "x-tt-flow-token",
+          "value": "<redacted>"
+        },
+        {
+          "name": "sec-ch-ua-mobile",
+          "value": "?0"
+        },
+        {
+          "name": "accept",
+          "value": "*/*"
+        },
+        {
+          "name": "origin",
+          "value": "https://example.queue-it.net"
+        },
+        {
+          "name": "sec-fetch-site",
+          "value": "same-site"
+        },
+        {
+          "name": "sec-fetch-mode",
+          "value": "cors"
+        },
+        {
+          "name": "sec-fetch-dest",
+          "value": "empty"
+        },
+        {
+          "name": "referer",
+          "value": "https://example.queue-it.net/"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate, br, zstd"
+        },
+        {
+          "name": "accept-language",
+          "value": "en-US,en;q=0.9"
+        },
+        {
+          "name": "priority",
+          "value": "u=1, i"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-28T08:35:00.555Z",
+      "method": "GET",
+      "url": "https://dual.challenge.queue-it.net/icons/1787563464/ico/1888398085770474375769911286.png",
+      "status": 200,
+      "headers": [
+        {
+          "name": "sec-ch-ua-platform",
+          "value": "\"macOS\""
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "name": "sec-ch-ua",
+          "value": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\""
+        },
+        {
+          "name": "sec-ch-ua-mobile",
+          "value": "?0"
+        },
+        {
+          "name": "accept",
+          "value": "image/jxl,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "sec-fetch-site",
+          "value": "same-site"
+        },
+        {
+          "name": "sec-fetch-mode",
+          "value": "no-cors"
+        },
+        {
+          "name": "sec-fetch-dest",
+          "value": "image"
+        },
+        {
+          "name": "referer",
+          "value": "https://example.queue-it.net/"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate, br, zstd"
+        },
+        {
+          "name": "accept-language",
+          "value": "en-US,en;q=0.9"
+        },
+        {
+          "name": "priority",
+          "value": "u=1, i"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-28T08:35:00.555Z",
+      "method": "GET",
+      "url": "https://dual.challenge.queue-it.net/icons/1787563464/bgnd/jqgARIOYdmkrbRQ70abArZbpKiby1fAv4mB56BKH.webp",
+      "status": 200,
+      "headers": [
+        {
+          "name": "sec-ch-ua-platform",
+          "value": "\"macOS\""
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "name": "sec-ch-ua",
+          "value": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\""
+        },
+        {
+          "name": "sec-ch-ua-mobile",
+          "value": "?0"
+        },
+        {
+          "name": "accept",
+          "value": "image/jxl,image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "sec-fetch-site",
+          "value": "same-site"
+        },
+        {
+          "name": "sec-fetch-mode",
+          "value": "no-cors"
+        },
+        {
+          "name": "sec-fetch-dest",
+          "value": "image"
+        },
+        {
+          "name": "referer",
+          "value": "https://example.queue-it.net/"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate, br, zstd"
+        },
+        {
+          "name": "accept-language",
+          "value": "en-US,en;q=0.9"
+        },
+        {
+          "name": "priority",
+          "value": "u=1, i"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-28T08:35:05.081Z",
+      "method": "OPTIONS",
+      "url": "https://dual.challenge.queue-it.net/icon/verify",
+      "status": 200,
+      "headers": [
+        {
+          "name": "accept",
+          "value": "*/*"
+        },
+        {
+          "name": "access-control-request-method",
+          "value": "POST"
+        },
+        {
+          "name": "access-control-request-headers",
+          "value": "content-type"
+        },
+        {
+          "name": "origin",
+          "value": "https://example.queue-it.net"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "name": "sec-fetch-mode",
+          "value": "cors"
+        },
+        {
+          "name": "sec-fetch-site",
+          "value": "same-site"
+        },
+        {
+          "name": "sec-fetch-dest",
+          "value": "empty"
+        },
+        {
+          "name": "referer",
+          "value": "https://example.queue-it.net/"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate, br, zstd"
+        },
+        {
+          "name": "accept-language",
+          "value": "en-US,en;q=0.9"
+        },
+        {
+          "name": "priority",
+          "value": "u=1, i"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-28T08:35:05.252Z",
+      "method": "POST",
+      "url": "https://dual.challenge.queue-it.net/icon/verify",
+      "status": 200,
+      "headers": [
+        {
+          "name": "content-length",
+          "value": "1144"
+        },
+        {
+          "name": "sec-ch-ua-platform",
+          "value": "\"macOS\""
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "name": "sec-ch-ua",
+          "value": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\""
+        },
+        {
+          "name": "content-type",
+          "value": "application/json"
+        },
+        {
+          "name": "sec-ch-ua-mobile",
+          "value": "?0"
+        },
+        {
+          "name": "accept",
+          "value": "*/*"
+        },
+        {
+          "name": "origin",
+          "value": "https://example.queue-it.net"
+        },
+        {
+          "name": "sec-fetch-site",
+          "value": "same-site"
+        },
+        {
+          "name": "sec-fetch-mode",
+          "value": "cors"
+        },
+        {
+          "name": "sec-fetch-dest",
+          "value": "empty"
+        },
+        {
+          "name": "referer",
+          "value": "https://example.queue-it.net/"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate, br, zstd"
+        },
+        {
+          "name": "accept-language",
+          "value": "en-US,en;q=0.9"
+        },
+        {
+          "name": "priority",
+          "value": "u=1, i"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-28T08:35:05.468Z",
+      "method": "OPTIONS",
+      "url": "https://dual.challenge.queue-it.net/verify-flow",
+      "status": 200,
+      "headers": [
+        {
+          "name": "accept",
+          "value": "*/*"
+        },
+        {
+          "name": "access-control-request-method",
+          "value": "GET"
+        },
+        {
+          "name": "access-control-request-headers",
+          "value": "content-type,x-tt-ch-flow-token,x-tt-client-fingerprint,x-tt-solution-tokens"
+        },
+        {
+          "name": "origin",
+          "value": "https://example.queue-it.net"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "name": "sec-fetch-mode",
+          "value": "cors"
+        },
+        {
+          "name": "sec-fetch-site",
+          "value": "same-site"
+        },
+        {
+          "name": "sec-fetch-dest",
+          "value": "empty"
+        },
+        {
+          "name": "referer",
+          "value": "https://example.queue-it.net/"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate, br, zstd"
+        },
+        {
+          "name": "accept-language",
+          "value": "en-US,en;q=0.9"
+        },
+        {
+          "name": "priority",
+          "value": "u=1, i"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-28T08:35:05.483Z",
+      "method": "GET",
+      "url": "https://dual.challenge.queue-it.net/verify-flow",
+      "status": 200,
+      "headers": [
+        {
+          "name": "sec-ch-ua-platform",
+          "value": "\"macOS\""
+        },
+        {
+          "name": "x-tt-ch-flow-token",
+          "value": "<redacted>"
+        },
+        {
+          "name": "sec-ch-ua",
+          "value": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\""
+        },
+        {
+          "name": "sec-ch-ua-mobile",
+          "value": "?0"
+        },
+        {
+          "name": "x-tt-client-fingerprint",
+          "value": "421dffd594fd3062abf1f8852b99448d"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+        },
+        {
+          "name": "x-tt-solution-tokens",
+          "value": "<redacted>"
+        },
+        {
+          "name": "content-type",
+          "value": "application/json"
+        },
+        {
+          "name": "accept",
+          "value": "*/*"
+        },
+        {
+          "name": "origin",
+          "value": "https://example.queue-it.net"
+        },
+        {
+          "name": "sec-fetch-site",
+          "value": "same-site"
+        },
+        {
+          "name": "sec-fetch-mode",
+          "value": "cors"
+        },
+        {
+          "name": "sec-fetch-dest",
+          "value": "empty"
+        },
+        {
+          "name": "referer",
+          "value": "https://example.queue-it.net/"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate, br, zstd"
+        },
+        {
+          "name": "accept-language",
+          "value": "en-US,en;q=0.9"
+        },
+        {
+          "name": "priority",
+          "value": "u=1, i"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!-- Example page: the two config values a BotDeflector page carries. Placeholder customer and event. -->
+<html lang="en">
+<head><title>Example waiting room</title></head>
+<body>
+<script type="text/javascript">
+    var queueViewModel = new QueueIt.Queue.SoftblockViewModel({
+        customerId: 'example',
+        eventId: 'demo',
+        challenges: [{"name":"BotDeflector","hasAnimation":false}],
+        botDeflectorSource: 'https://dual.challenge.queue-it.net/api.js',
+        botDeflectorJwtToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiJleGFtcGxlIiwic2l0ZUtleSI6ImRlbW8iLCJjaGFsbGVuZ2VGbG93IjpbeyJ0eXBlIjoiaW52IiwiY29tcGxleGl0eSI6MX0seyJ0eXBlIjoiaWNvbiIsImNvbXBsZXhpdHkiOjEsImFsbG93QXVkaW8iOnRydWV9XSwic2Vzc2lvbklkIjoiZjFlMWY2NjUtZDNiZS00Mzk2LWE2NjktNGU1N2RlMjUwNzhiIiwiaWF0IjoxNzkzMTc2NDk3LCJleHAiOjE3OTMxNzY2MTd9.example-signature',
+    });
+</script>
+</body>
+</html>

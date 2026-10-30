@@ -1,0 +1,72 @@
+{
+  "challengeToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGFsbGVuZ2VzIjpbIjJmYTcyODNhNjk0NzYxZWUyNWFhZDRiZWI3NGQ3NzNkNTk1NDdlNWIzZWQyYWViMzdhMzMwNTgwOGUwYWY3NDYiLCJiZGI3NjQwMTYwYjRkNjU5MjY1YmRhNjgxNDg4NzRjMTc2OWJiY2IzNzdmZDFiNzNkNGEzMDZiMmQzNjNlMjZhIiwiYTQ5ZWQ0OGRiOTFiOTY4ZmM3ZTQ5ODA0Y2M5MThkNjcyYjJkMWE3MmUxNmVjYjc2NDIwMTU1MGQzZjViODVhZSJdLCJwYXJhbXMiOnsiTk9ERVNfQklUUyI6MTQsIkVER0VTX0JJVFMiOjE2LCJDWUNMRV9MRU5HVEgiOjh9LCJjaGFsbGVuZ2VUeXBlIjoiaW52Iiwic2Vzc2lvbklkIjoiZjFlMWY2NjUtZDNiZS00Mzk2LWE2NjktNGU1N2RlMjUwNzhiIiwiaXQiOjE3OTMxNzY0OTk2MTUsImV4cCI6MTc5MzE3NzA5OX0.gJgZmKXNXe9Pn64M5h6UsttMFKwKRSR5OfIjl7wn6ZE",
+  "payload": {
+    "challenges": [
+      "2fa7283a694761ee25aad4beb74d773d59547e5b3ed2aeb37a3305808e0af746",
+      "bdb7640160b4d659265bda68148874c1769bbcb377fd1b73d4a306b2d363e26a",
+      "a49ed48db91b968fc7e49804cc918d672b2d1a72e16ecb764201550d3f5b85ae"
+    ],
+    "params": {
+      "NODES_BITS": 14,
+      "EDGES_BITS": 16,
+      "CYCLE_LENGTH": 8
+    },
+    "challengeType": "inv",
+    "sessionId": "f1e1f665-d3be-4396-a669-4e57de25078b",
+    "it": 1793176499615,
+    "exp": 1793177099
+  },
+  "accepted": {
+    "solution": [
+      {
+        "challenge": "2fa7283a694761ee25aad4beb74d773d59547e5b3ed2aeb37a3305808e0af746",
+        "edgeIndices": [
+          258,
+          3392,
+          23682,
+          15789,
+          36604,
+          7855,
+          23985,
+          373
+        ]
+      },
+      {
+        "challenge": "bdb7640160b4d659265bda68148874c1769bbcb377fd1b73d4a306b2d363e26a",
+        "edgeIndices": [
+          284,
+          3672,
+          19213,
+          65497,
+          13875,
+          31149,
+          46251,
+          14865
+        ]
+      },
+      {
+        "challenge": "a49ed48db91b968fc7e49804cc918d672b2d1a72e16ecb764201550d3f5b85ae",
+        "edgeIndices": [
+          4886,
+          6557,
+          31102,
+          37420,
+          49176,
+          28332,
+          9107,
+          32841
+        ]
+      }
+    ],
+    "params": {
+      "NODES_BITS": 14,
+      "EDGES_BITS": 16,
+      "CYCLE_LENGTH": 8,
+      "GRAPH_SEED": "f1e1f665-d3be-4396-a669-4e57de25078b"
+    },
+    "time": "0.152"
+  },
+  "response": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiJmMWUxZjY2NS1kM2JlLTQzOTYtYTY2OS00ZTU3ZGUyNTA3OGIiLCJ0eXBlIjoiaW52IiwiZXhwIjoxNzkzMTc2NjIwfQ.L6KhNTHexgJxNo5lUpsLqqBE8apfufwgOh5e7hEfpkw"
+  }
+}

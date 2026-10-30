@@ -1,0 +1,26 @@
+{
+  "name": "botdeflector-solver",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "demo": "node poc/cli.ts --demo",
+    "poc": "node poc/cli.ts",
+    "test": "node --test \"poc/test/*.test.ts\" \"pow/typescript/*.test.ts\"",
+    "test:live": "node --test poc/test/live.ts",
+    "check": "tsc && prettier --check \"{poc,pow}/**/*.ts\"",
+    "format": "prettier --write \"{poc,pow}/**/*.ts\""
+  },
+  "prettier": {
+    "printWidth": 100,
+    "tabWidth": 4,
+    "arrowParens": "avoid"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "prettier": "^3.9.10",
+    "typescript": "^6.0.3"
+  }
+}

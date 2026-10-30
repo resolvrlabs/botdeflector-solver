@@ -1,0 +1,39 @@
+{
+  "challengeToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpY28iOiIxODg4Mzk4MDg1NzcwNDc0Mzc1NzY5OTExMjg2LnBuZyIsImltZyI6ImpxZ0FSSU9ZZG1rcmJSUTcwYWJBclpicEtpYnkxZkF2NG1CNTZCS0gud2VicCIsImxpYiI6MTc4NzU2MzQ2NCwic29sIjp7Iml2IjoiYjdjNjkwZjMzZDIyMzJiMjgwNjQxYTg4Yzg4NTVjYzYiLCJlbmNyeXB0ZWREYXRhIjoiYmIyODJkNzAxM2M2YzExNDdiYTY1ZGFlOGJmMWQyNmFiMDY3NjQyYThjZmI2YzEwNmM1YzkxYTZiYjg2NzBkMSJ9LCJjaGFsbGVuZ2VUeXBlIjoiaWNvbiIsInNlc3Npb25JZCI6ImYxZTFmNjY1LWQzYmUtNDM5Ni1hNjY5LTRlNTdkZTI1MDc4YiIsIml0IjoxNzkzMTc2NTAwNDc5LCJleHAiOjE3OTMxNzc3MDAsImlhdCI6MTc5MzE3NjUwMH0.JMSo4MXFx9z5z4Bhz15e-3WyeAUH1NHkpWwuwCcRttc",
+  "payload": {
+    "ico": "1888398085770474375769911286.png",
+    "img": "jqgARIOYdmkrbRQ70abArZbpKiby1fAv4mB56BKH.webp",
+    "lib": 1787563464,
+    "sol": {
+      "iv": "b7c690f33d2232b280641a88c8855cc6",
+      "encryptedData": "bb282d7013c6c1147ba65dae8bf1d26ab067642a8cfb6c106c5c91a6bb8670d1"
+    },
+    "challengeType": "icon",
+    "sessionId": "f1e1f665-d3be-4396-a669-4e57de25078b",
+    "it": 1793176500479,
+    "exp": 1793177700,
+    "iat": 1793176500
+  },
+  "iconUrl": "https://dual.challenge.queue-it.net/icons/1787563464/ico/1888398085770474375769911286.png",
+  "backgroundUrl": "https://dual.challenge.queue-it.net/icons/1787563464/bgnd/jqgARIOYdmkrbRQ70abArZbpKiby1fAv4mB56BKH.webp",
+  "accepted": {
+    "solution": [
+      {
+        "x": 236,
+        "y": 65
+      },
+      {
+        "x": 35,
+        "y": 63
+      },
+      {
+        "x": 171,
+        "y": 105
+      }
+    ],
+    "time": 4536
+  },
+  "response": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiJmMWUxZjY2NS1kM2JlLTQzOTYtYTY2OS00ZTU3ZGUyNTA3OGIiLCJ0eXBlIjoiaWNvbiIsInhjIjoiMiIsImV4cCI6MTc5MzE3NjgwNSwiaWF0IjoxNzkzMTc2NTA1fQ.OFNigrHZ1ybttoqD4vR56DjFjr0nZg5d-mgSaS2BJNI"
+  }
+}

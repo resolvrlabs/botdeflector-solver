@@ -1,0 +1,100 @@
+{
+  "description": "Golden vectors for the BotDeflector graph-cycle proof-of-work. Every port must reproduce `expected` exactly for each challenge (same DFS order), and every `expected` cycle must pass verification. GRAPH_SEED is the sessionId from the challenge token payload.",
+  "vectors": [
+    {
+      "name": "live-accepted-2026-10-28",
+      "source": "HAR capture; Queue-it accepted these edgeIndices in pow/verify",
+      "challengeToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGFsbGVuZ2VzIjpbIjJmYTcyODNhNjk0NzYxZWUyNWFhZDRiZWI3NGQ3NzNkNTk1NDdlNWIzZWQyYWViMzdhMzMwNTgwOGUwYWY3NDYiLCJiZGI3NjQwMTYwYjRkNjU5MjY1YmRhNjgxNDg4NzRjMTc2OWJiY2IzNzdmZDFiNzNkNGEzMDZiMmQzNjNlMjZhIiwiYTQ5ZWQ0OGRiOTFiOTY4ZmM3ZTQ5ODA0Y2M5MThkNjcyYjJkMWE3MmUxNmVjYjc2NDIwMTU1MGQzZjViODVhZSJdLCJwYXJhbXMiOnsiTk9ERVNfQklUUyI6MTQsIkVER0VTX0JJVFMiOjE2LCJDWUNMRV9MRU5HVEgiOjh9LCJjaGFsbGVuZ2VUeXBlIjoiaW52Iiwic2Vzc2lvbklkIjoiZjFlMWY2NjUtZDNiZS00Mzk2LWE2NjktNGU1N2RlMjUwNzhiIiwiaXQiOjE3OTMxNzY0OTk2MTUsImV4cCI6MTc5MzE3NzA5OX0.gJgZmKXNXe9Pn64M5h6UsttMFKwKRSR5OfIjl7wn6ZE",
+      "params": {
+        "NODES_BITS": 14,
+        "EDGES_BITS": 16,
+        "CYCLE_LENGTH": 8,
+        "GRAPH_SEED": "f1e1f665-d3be-4396-a669-4e57de25078b"
+      },
+      "challenges": [
+        "2fa7283a694761ee25aad4beb74d773d59547e5b3ed2aeb37a3305808e0af746",
+        "bdb7640160b4d659265bda68148874c1769bbcb377fd1b73d4a306b2d363e26a",
+        "a49ed48db91b968fc7e49804cc918d672b2d1a72e16ecb764201550d3f5b85ae"
+      ],
+      "expected": [
+        [
+          258,
+          3392,
+          23682,
+          15789,
+          36604,
+          7855,
+          23985,
+          373
+        ],
+        [
+          284,
+          3672,
+          19213,
+          65497,
+          13875,
+          31149,
+          46251,
+          14865
+        ],
+        [
+          4886,
+          6557,
+          31102,
+          37420,
+          49176,
+          28332,
+          9107,
+          32841
+        ]
+      ]
+    },
+    {
+      "name": "reference-pow-js",
+      "source": "matches the widget pow.js output for a captured seeded challenge",
+      "params": {
+        "NODES_BITS": 14,
+        "EDGES_BITS": 16,
+        "CYCLE_LENGTH": 8,
+        "GRAPH_SEED": "683beef1-0c5e-4285-a833-09a38a6331d0"
+      },
+      "challenges": [
+        "6d6a686312c718e1624172efe43affcd206c1022fe0dd21eaf448e8d51ed2d5a",
+        "9f8de6c2d37ab416af9634205375c0f45e3e0150e5634e21d8cabcb4cbf0a4dc",
+        "6e0581bc346c20bdd11534d10775d60181deb14152b3d3491a89e635af94b448"
+      ],
+      "expected": [
+        [
+          508,
+          11633,
+          7726,
+          40537,
+          47673,
+          22262,
+          30977,
+          9115
+        ],
+        [
+          645,
+          5770,
+          348,
+          27425,
+          8023,
+          47204,
+          46310,
+          2099
+        ],
+        [
+          2430,
+          27818,
+          35421,
+          44138,
+          10354,
+          9639,
+          18086,
+          31854
+        ]
+      ]
+    }
+  ]
+}
